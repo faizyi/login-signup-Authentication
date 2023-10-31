@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login_form" >
+        <div class="login" >
+            <h1>Login</h1>
+        </div><br>
+        <form id="form" class="login-form" action="">
+            <fieldset>
+                <legend class="elegend">Enter Email Id</legend>
+                <input class="einput" type="email" id="email">
+            </fieldset><br>
+            <fieldset>
+                <legend class="plegend">Enter Password</legend>
+                <input  class="pinput" type="password" id="password">
+            </fieldset><br>
+            <div class="show_password" >
+                <p>Show Password</p>
+                <input class="show-lpassword" type="checkbox">
+            </div>
+            <div id="invalid">
+                <span class="invalid"></span>
+            </div>
+            <div class="btn">
+                <button type="submit">Log in</button>
+            </div>
+        </form>
+        <div class="already">
+            <p>Not a member?</p>
+            <a class="here" href="./index.html">Signup Here</a>
+        </div>
+    </div>
+    
+    <script type="module" src="login.js"></script>
+</body>
+</html>
