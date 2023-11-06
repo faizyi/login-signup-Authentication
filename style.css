@@ -81,6 +81,38 @@ fieldset input{
     cursor: pointer;
     margin-top: 5px;
 }
+/* .login_form #footer{
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 1px;
+    margin-top: 10px;
+} */
+/* #footer legend{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    border: 1px solid black;
+    padding: 1px;
+    border-radius: 5px;
+} */
+.login_form .signup_google{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.signup_google img{
+    width: 30px;
+    cursor: pointer;
+}
+/* .signup_google i{
+    font-size: 30px;
+    color: red;
+    border: 2px solid red ;
+    border-radius: 20px;
+    cursor: pointer;
+} */
+
 .login_form .already{
     display: flex;
     justify-content: center;
@@ -105,16 +137,40 @@ button:active{
     box-shadow: 0px 0px 10px black;
     padding: 20px;
     width: 300px;
-    height: 200px;
+    height: 300px;
     border-radius: 5px;
 }
-.welcome_page .text{
-    margin-top: 15px;
+.welcome_page .welcome{
+    background-color: black;
+    color: white;
+}
+.Account{
+    text-decoration: underline;
 }
 .welcome_page span{
-    font-size: 20px;
+    font-size: 30px;
     display: flex;
+    justify-content: center;
     align-items: center;
+    margin-top: 20px;
+}
+.email-id{
+    margin-top: 10px;
+}
+.email-id label{
+    font-size: 20px;
+}
+.email-id p{
+    border: 1px solid black;
+    font-size: 20px;
+    background-color: wheat;
+}
+.welcome_page .change_password{
+    margin-top: 5px;
+}
+.change_password a{
+    text-decoration: none;
+    color: green;
 }
 .welcome_page button{
     width: 100%;
@@ -126,6 +182,5 @@ button:active{
     background-color: rgb(68, 68, 168);
     color: whitesmoke;
     cursor: pointer;
-    margin-top: 5px;
-
+    margin-top: 30px;
 }
